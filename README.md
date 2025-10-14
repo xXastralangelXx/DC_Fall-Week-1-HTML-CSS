@@ -1,3 +1,4 @@
+![DPI Logo](docs/dpi%20image.jpeg)
 # Week 1 — HTML + CSS (Tailwind) + GitHub 🚀
 
 Build and publish your first web page: a **Profile Card** that grows into a **Profile Page**.  
