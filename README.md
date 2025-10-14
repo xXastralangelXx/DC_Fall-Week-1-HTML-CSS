@@ -30,7 +30,9 @@ No installs required. We’ll use Tailwind via CDN and GitHub’s web editor.
    - After a few seconds, a preview panel or link will open (something like `https://<username>-<repo>-<id>.app.github.dev`)  
    - Every time you save your file, the page refreshes automatically.  
    _Screenshot:_ ![Live Server Preview](docs/screenshots/live_server_screenshot.png)
-.
+
+
+   - Make your changes! Add new sections, personalize your card. 
    - If you don't have an image have AI imagine one of you!
    - Click **Commit** in the source control sidebar.  
    _Screenshot:_ ![Edit & commit](docs/screenshots/commit_screenshot.png)
