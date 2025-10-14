@@ -15,16 +15,25 @@ No installs required. We’ll use Tailwind via CDN and GitHub’s web editor.
 ## 🧭 Quick Start (3 steps)
 
 1. **Fork this repo** (top-right button)  
-   _Screenshot placeholder:_ `![Fork](docs/screenshots/01-fork.png)`
+   _Screenshot placeholder:_ ![Fork](docs/screenshots/fork_screenshot.png)
 
-2. **Open GitHub’s web IDE**: press the `.` (dot) key to launch **github.dev**  
-   _Screenshot:_ `![Press dot](docs/screenshots/02-press-dot.png)`
+2. **Open in a GitHub Codespace**  
+   - Click the green **“Code”** button → select the **Codespaces** tab → click **“Create codespace on main”**  
+   - Wait for it to load (it’ll look like VS Code in your browser).  
+   _Screenshot:_ ![Open Codespace](docs/screenshots/codeSpace_screenshot.png)
 
-3. **Edit `index.html` → Commit**  
-   - Change your name, image URL, and colors.
+3. **Start a Live Preview (Live Server)**  
+   - In the Codespace terminal (bottom panel), type:  
+     ```bash
+     npx live-server
+     ```  
+   - After a few seconds, a preview panel or link will open (something like `https://<username>-<repo>-<id>.app.github.dev`)  
+   - Every time you save your file, the page refreshes automatically.  
+   _Screenshot:_ ![Live Server Preview](docs/screenshots/live_server_screenshot.png)
+.
    - If you don't have an image have AI imagine one of you!
    - Click **Commit** in the source control sidebar.  
-   _Screenshot:_ `![Edit & commit](docs/screenshots/03-edit-commit.png)`
+   _Screenshot:_ ![Edit & commit](docs/screenshots/commit_screenshot.png)
 
 ---
 
@@ -36,8 +45,15 @@ No installs required. We’ll use Tailwind via CDN and GitHub’s web editor.
 4. Wait ~30s. Your site URL appears at the top of the Pages section.
 
 _Screenshots:_  
-`![Pages settings](docs/screenshots/04-pages-settings.png)`  
-`![Live URL](docs/screenshots/05-live-url.png)`
+![Pages settings](docs/screenshots/settings_screenshot.png)  
+
+![Page Select](docs/screenshots/pages_select_screenshot.png)
+
+![Publish Page](docs/screenshots/publish_screenshot.png)
+
+![Page Select](docs/screenshots/deployment_screenshot.png)
+
+![Page Select](docs/screenshots/deployment_url_screenshot.png)
 
 > **[Submit your Portfolio Link Here](https://forms.gle/cBCUSPbZxeV5LEJx8)**
 
@@ -48,7 +64,7 @@ _Screenshots:_
 **Goal:** One centered card with an image, name, short bio, and a button that links to your GitHub.
 
 Suggested changes:
-- Replace the image with your own (or use `assets/profile-placeholder.jpg`)
+- Replace the image with your own (or use `assets/shuri.jpg`)
 - Try color classes: `text-blue-600`, `bg-violet-200`, `text-green-700`
 - Add spacing: `p-6`, `mt-4`, `mb-2`
 - Round things: `rounded-lg`, `rounded-full`
